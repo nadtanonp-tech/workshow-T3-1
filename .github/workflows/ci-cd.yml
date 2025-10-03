@@ -20,7 +20,7 @@ jobs:
           node-version: 20
           cache: 'npm'
 
-      - name: Install Yarn
+      - name: Install npm
         run: npm install -g npm
 
       - name: Install dependencies
@@ -43,7 +43,7 @@ jobs:
           node-version: 20
           cache: 'npm'
 
-      - name: Install Yarn
+      - name: Install npm
         run: npm install -g npm
 
       - name: Install dependencies
